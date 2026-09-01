@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fundbüro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Fundbüro</h1>
+    <p>Etwas gefunden? Trag es ein. Etwas verloren? Such danach.</p>
+  </header>
+  <main>
+    <section aria-labelledby="melden">
+      <h2 id="melden">Fundstück melden</h2>
+      <form id="item-form">
+        <label>Was wurde gefunden?
+          <input name="title" required maxlength="80" placeholder="z. B. blaues Turnsackerl">
+        </label>
+        <label>Beschreibung
+          <textarea name="description" maxlength="500" rows="2" placeholder="Farbe, Größe, Besonderheiten"></textarea>
+        </label>
+        <label>Wo?
+          <input name="place" required maxlength="80" placeholder="z. B. Turnsaal">
+        </label>
+        <label>Wann?
+          <input name="date" type="date" required>
+        </label>
+        <button type="submit">Eintragen</button>
+        <ul id="form-errors" class="errors" aria-live="polite"></ul>
+      </form>
+    </section>
+    <section aria-labelledby="liste">
+      <h2 id="liste">Fundstücke</h2>
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Suchen …" aria-label="Fundstücke durchsuchen">
+        <label><input id="show-collected" type="checkbox"> Abgeholte anzeigen</label>
+      </div>
+      <p id="count" class="muted" aria-live="polite"></p>
+      <ul id="items" class="items"></ul>
+    </section>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
