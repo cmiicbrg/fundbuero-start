@@ -1,0 +1,22 @@
+[
+  { "title": "Blaues Turnsackerl", "description": "Mit Turnschuhen Größe 38 drin.", "place": "Turnsaal", "date": "2026-10-05" },
+  { "title": "Schlüssel mit Anhänger", "description": "Zwei Schlüssel, Anhänger: kleiner Fuchs.", "place": "Garderobe Erdgeschoss", "date": "2026-10-12" },
+  { "title": "Federpennal", "description": "Grün, fast voll.", "place": "Klasse 2B", "date": "2026-10-01" },
+  { "title": "Jausenbox", "description": "Lila, leer, Deckel fehlt.", "place": "Pausenhof", "date": "2026-09-29" },
+  { "title": "Trinkflasche", "description": "Edelstahl, 0,75 Liter, mit Sticker.", "place": "Bibliothek", "date": "2026-10-14", "status": "abgeholt" },
+  { "title": "Regenschirm", "description": "Schwarz, klappbar.", "place": "Eingang Nord", "date": "2026-10-13" },
+  { "title": "Haube", "description": "Rot gestrickt.", "place": "Bushaltestelle vor der Schule", "date": "2026-10-08" },
+  { "title": "Kopfhörer-Etui", "description": "Weißes Ladeetui, ohne Hörer.", "place": "Physiksaal", "date": "2026-10-06" },
+  { "title": "Taschenrechner", "description": "Name auf der Rückseite überklebt.", "place": "Klasse 6A", "date": "2026-10-02" },
+  { "title": "Brille", "description": "Lesebrille, schwarz, im Etui.", "place": "Konferenzzimmer", "date": "2026-09-30" },
+  { "title": "Handschuh", "description": "Nur der linke, grau.", "place": "Pausenhof", "date": "2026-10-10" },
+  { "title": "USB-Stick", "description": "32 GB, silber.", "place": "EDV-Saal 2", "date": "2026-10-09", "status": "abgeholt" },
+  { "title": "Geldbörse", "description": "Braun, ohne Ausweis. Bitte im Sekretariat melden.", "place": "Aula", "date": "2026-10-15" },
+  { "title": "Mathematikbuch", "description": "Mathe 4, Name ausradiert.", "place": "Klasse 4C", "date": "2026-09-28" },
+  { "title": "Sporthose", "description": "Schwarz, Größe M.", "place": "Umkleide", "date": "2026-10-07" },
+  { "title": "Ladekabel", "description": "USB-C, 1 Meter, weiß.", "place": "Klasse 7B", "date": "2026-10-11" },
+  { "title": "Armbanduhr", "description": "Digital, blaues Band.", "place": "Turnsaal", "date": "2026-09-25", "status": "abgeholt" },
+  { "title": "Zeichenblock", "description": "A3, halb voll.", "place": "Zeichensaal", "date": "2026-10-04" },
+  { "title": "Jacke", "description": "Dunkelblaue Softshelljacke, Größe 152.", "place": "Garderobe 1. Stock", "date": "2026-10-13" },
+  { "title": "Spielkarten", "description": "UNO, vollständig.", "place": "Nachmittagsbetreuung", "date": "2026-10-03" }
+]
