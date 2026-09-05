@@ -146,3 +146,18 @@ button:hover {
 .item button {
   margin-top: 0.5rem;
 }
+
+/* Abgeholte bleiben lesbar: --muted hat genug Kontrast auf Weiß */
+.item.abgeholt {
+  color: var(--muted);
+}
+
+.badge {
+  justify-self: start;
+  margin-top: 0.5rem;
+  padding: 0.1rem 0.6rem;
+  border-radius: 1rem;
+  background: var(--line);
+  color: var(--ink);
+  font-size: 0.85rem;
+}
