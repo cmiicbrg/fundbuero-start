@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import express from "express";
 import cors from 'cors'
 import bodyParser from "body-parser";
@@ -16,6 +17,11 @@ app.use((req, res, next) => {
   console.log(chalk.gray(uuidv4()), req.method, req.url);
   next()
 })
+
+// Fotos kommen später nach Dropbox
+if (process.env.DROPBOX_TOKEN) {
+  console.log(chalk.green('Fotos: Dropbox verbunden'))
+}
 
 app.get('/api/items', (req, res) => {
   let items = db.prepare('select * from items').all()
