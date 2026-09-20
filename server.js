@@ -6,7 +6,7 @@ import chalk from 'chalk';
 import { v4 as uuidv4 } from 'uuid'
 import _ from 'lodash'
 import { db } from './lib/db.js'
-import { validateItem } from './lib/items.js'
+import { validateItem, search } from './lib/items.js'
 
 const app = express()
 app.use(cors())
@@ -25,6 +25,7 @@ if (process.env.DROPBOX_TOKEN) {
 
 app.get('/api/items', (req, res) => {
   let items = db.prepare('select * from items').all()
+  if (req.query.q) items = search(items, req.query.q)
   if (req.query.status) items = items.filter(i => i.status == req.query.status)
   res.json(_.orderBy(items, ['date', 'id'], ['desc', 'desc']))
 })
